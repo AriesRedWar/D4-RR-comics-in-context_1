@@ -3,12 +3,13 @@ import RequestFormButton from './RequestFormButton'
 
 
 export default function SubmitForm() {
+
   return (
     <div style={{display: "flex"}}>
       <form style={{display: "inline-block"}}>
         <label>
           Name of Comic:
-          <input type="text" />
+          <input  type="text" />
         </label>
         <label>
           Year of Release:
